@@ -61,5 +61,5 @@ Some packages take a long time to install so it's best to do this setup in advan
 
 Last but not least, The program of the course is on the [WIKI](https://github.com/SequAna-Ukon/SequAna_course/wiki) page, with links to material and Zoom link for the external speakers, Enjoy the training.
 
-© 2024 Abdoallah Sharaf
+© 2025 Abdoallah Sharaf
 
