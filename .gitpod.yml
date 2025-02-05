@@ -8,6 +8,7 @@ tasks:
       source ~/.bashrc
       micromamba create -n base -y -c conda-forge mamba
       micromamba activate base
+  - name: Install busco 
     command: |
-        mamba create -n ONT25 -y bioconda::busco
-        mamba activate ONT25
+      mamba create -n ONT25 -y bioconda::busco
+      mamba activate ONT25
