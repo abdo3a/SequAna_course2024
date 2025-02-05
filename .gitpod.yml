@@ -8,5 +8,5 @@ tasks:
       source ~/.bashrc
       micromamba create -n ONT25 -y -c conda-forge mamba
       micromamba activate ONT25
-      micromamba install bioconda::busco
+      micromamba install -y bioconda::busco
  
