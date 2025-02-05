@@ -6,6 +6,6 @@ tasks:
       echo 'export MAMBA_ROOT_PREFIX=~/micromamba' >> ~/.bashrc
       echo 'eval "$(micromamba shell hook --shell=bash)"' >> ~/.bashrc
       source ~/.bashrc
-      micromamba create -n base -y -c conda-forge mamba
-      micromamba activate base
-    command: micromamba --version
+    command: |
+        mamba create -n ONT25 -y bioconda::busco
+        mamba activate ONT25
